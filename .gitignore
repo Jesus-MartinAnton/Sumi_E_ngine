@@ -1,12 +1,22 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+# Archivos de compilación y salida
+out/
+build/
+bin/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.user
+*.sln
+
+# vcpkg local
+vcpkg/
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
